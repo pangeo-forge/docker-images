@@ -7,4 +7,4 @@ USER ${NB_USER}
 RUN python -m pip install --no-cache-dir \
     prefect[viz,kubernetes]==0.13.0 \
     pygithub==1.53 \
-    git+https://github.com/pangeo-forge/pangeo-forge
+    git+https://github.com/pangeo-forge/pangeo-forge@0.1.0
